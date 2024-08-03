@@ -1,0 +1,26 @@
+{
+    "name": "saigotec/tienda-virtual",
+    "version": "1.0.0",
+    "private": true,
+    "description": "Proyecto de Tienda Virtual",
+    "type": "project",
+    "licence": "SAIGOTEC",
+    "authors": [
+        {
+            "name": "Daniel Castillo",
+            "email": "daniel.castillo@saigotec.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\" : "app/",
+            "Core\\" : "core/"
+        },
+        "files": [
+            
+        ]
+    },
+    "require": {
+        "symfony/http-foundation": "^5.4"
+    }
+}
